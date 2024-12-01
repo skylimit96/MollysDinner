@@ -1,0 +1,59 @@
+.Pro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 6.5rem;
+    padding-right: 6.5rem;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.header-pro {
+    padding-left: 15rem;
+    padding-right: 15rem;
+}
+
+.service-cards {
+    display: flex;
+    margin-top: 4rem;
+    justify-content: space-between;
+}
+
+img {
+    height: min-content;
+    width: 300px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.card {
+    width: 28%;
+    height: fit-content;
+    background-color: rgba(235, 225, 225, 0.203);
+    padding: 1rem;
+    border-radius: 15px;
+    margin-bottom: 4rem;
+}
+
+.more-button {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 0.5rem 1rem;
+    border: solid 0.5px;
+    border-radius: 2px;
+    cursor: pointer;
+    font-weight: 700;
+    height: 2.4rem;
+}
+
+.buttons-pro {
+    display: flex;
+    gap: 2rem;
+}
+
+.start-button {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}

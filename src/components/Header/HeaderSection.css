@@ -1,0 +1,62 @@
+.header {
+  background-image: url("/src/Header-bg.jpg");
+  background-size: cover;
+  height: 52vh;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  padding: 7rem;
+}
+
+.header-title {
+  font-size: xxx-large;
+  font-weight: 800;
+  color: white;
+
+}
+
+.header-text {
+  margin-top: -20px;
+  margin-bottom: 2rem;
+}
+
+.header-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.menu-button {
+  background-color: #e10505;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 700;
+  height: 2.5rem;
+}
+
+.cmd-button {
+  color: #000000;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 700;
+  height: 2.4rem;
+  box-shadow: #000000;
+  transition: #ffffff 3s ease-in-out;
+}
+
+.cmd-button:hover {
+  background-color: #e10505;
+  color: white;
+}
+
+.header img {
+  border-radius: 25px;
+  padding-top: 7rem;
+  width: 83%;
+  height: auto;
+  padding-bottom: 4rem;
+}

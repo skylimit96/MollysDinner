@@ -1,0 +1,33 @@
+.skills-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  padding-left: 6.5rem;
+  padding-right: 6.5rem;
+}
+
+.skills-picture {
+  height: 30rem;
+  width: auto;
+}
+
+.skills-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+  margin-top: 3rem;
+  margin-right: 3rem;
+}
+
+.icon {
+  height: 4rem;
+  width: auto;
+}
+
+.left-side-skills {
+  margin-right: 2rem;
+}
